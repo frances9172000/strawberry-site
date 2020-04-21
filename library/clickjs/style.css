@@ -1,0 +1,36 @@
+.btn-effect {
+   outline: none;
+   border: none;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+}
+
+.spn {
+   position: absolute;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+   background: inherit;
+   animation: effect 0.7s ease-in-out forwards;
+   pointer-events: none;
+   filter: brightness(250%)
+}
+
+@keyframes effect {
+   from {
+      opacity: 0;
+      height: 0;
+      width: 0;
+   }
+
+   50% {
+      opacity: 0.5;
+   }
+
+   to {
+      height: 500px;
+      width: 500px;
+      opacity: 0;
+   }
+
+}
