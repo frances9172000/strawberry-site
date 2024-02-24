@@ -97,7 +97,6 @@ window.addEventListener("load", () => {
         if (home_shwcs.getBoundingClientRect().top < 0) {
             nv.style.paddingTop = '5px';
             nv.style.background = '#fff';
-            nv.style.height = '70px';
             nv.style.borderBottom = '1px solid rgb(241, 234, 234)';
             btt.style.display = 'block'
         } else {
