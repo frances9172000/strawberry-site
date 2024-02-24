@@ -39,7 +39,6 @@ h6 {
   z-index: 3;
   flex-wrap: wrap;
   transition: 0.2s ease;
-
 }
 
 .top-nv-menu {
@@ -408,15 +407,15 @@ a {
 }
 
 .recipe:nth-child(1) .recipe-img {
-  background-image: url("/img/recipe1.jpg");
+  background-image: url("./img/recipe1.jpg");
 }
 
 .recipe:nth-child(2) > .recipe-img {
-  background-image: url("/img/recipe2.jpg");
+  background-image: url("./img/recipe2.jpg");
 }
 
 .recipe:nth-child(3) > .recipe-img {
-  background-image: url("/img/recipe3.jpg");
+  background-image: url("./img/recipe3.jpg");
 }
 
 /* Home Benefits Showcse */
@@ -462,7 +461,7 @@ a {
 }
 
 .how-to .img {
-  background-image: url("img/images6.jpeg");
+  background-image: url("./img/images6.jpeg");
   height: 60vh;
   width: 100%;
   background-size: cover;
@@ -559,7 +558,7 @@ a {
 }
 
 .steps .step .step-img {
-  background-image: url("/img/images6.jpeg");
+  background-image: url("./img/images6.jpeg");
 }
 
 /*----- Home End ------*/
@@ -584,7 +583,7 @@ a {
 }
 
 .relted-img {
-  background-image: url("/img/images3.jpeg");
+  background-image: url("./img/images3.jpeg");
   width: 200px;
   height: 270px;
   background-size: cover;
@@ -686,7 +685,7 @@ a {
 .user-img {
   height: 50px;
   width: 50px;
-  background-image: url("/img/images6.jpeg");
+  background-image: url("./img/images6.jpeg");
   background-position: center center;
   background-size: cover;
   display: inline-block;
